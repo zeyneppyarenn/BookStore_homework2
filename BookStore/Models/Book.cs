@@ -12,6 +12,7 @@ namespace BookStore.Models
         public DateTime Created { get; set; } = DateTime.Now;
         
         public Decimal Price { get; set; }
+        //test
         public int ViewCount { get; set; }
 
         public int CategoryId { get; set; }
